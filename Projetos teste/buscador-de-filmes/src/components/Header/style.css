@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+.header-container {
+    /* border: 1px solid black; */
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.nav-links {
+    /* border: 3px solid green; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-links img {
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+}
+
+.links, .login {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Goldman', cursive;
+}
+
+.links:hover {
+    color: red;
+}
+
+.login {
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.login:hover {
+    background-color: red;
+    color: white;
+}

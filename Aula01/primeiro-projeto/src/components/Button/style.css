@@ -1,0 +1,22 @@
+/* Style Botão */
+
+.container-botao {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-custom-azul {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: black;
+    font-size: 16px;
+}
+.botao-custom-vermelho {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: black;
+    font-size: 16px;
+}

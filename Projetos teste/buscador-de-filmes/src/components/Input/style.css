@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+input {
+    width: 800px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: red;
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+:-moz-placeholder { 
+    color: red;
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+::-moz-placeholder { 
+    color: red;
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+:-ms-input-placeholder {  
+    color: red;
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    /* border: none; */
+    border-radius: 15px;
+    margin-left: 15px;
+    font-family: 'Goldman', cursive;
+}
+
+button:hover {
+    background: red;
+    color: white;
+    border: none;
+}
+
+form {
+    /* border: 4px solid orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
